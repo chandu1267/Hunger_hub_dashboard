@@ -1,0 +1,176 @@
+.login{
+  margin-right: 5px;
+}
+.sideSection{
+  padding-top: 10px ;
+  /* border: 1px solid black; */
+  width: 100%;
+  max-width: 150px;
+  height: 93vh;
+  background-color: rgb(150, 152, 152);
+}
+.sideSection ul li{
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.collection{
+  display: flex;
+  border: 1px solid black;
+}
+.LoginSection{
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.LoginSection form input{
+  width: 35%;
+}
+.LoginSection form button{
+  width: 8%;
+}
+.RegisterSection{
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.RegisterSection form input{
+  width: 35%;
+  margin-top: 3px;
+  margin-left: 15px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+.RegisterSection form button{
+  width: 8%;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+.firmSection{
+  margin-top: 80px;
+  margin-left: 320px;
+}
+.tableForm input{
+  width: 340px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.AddProductSection{
+  margin-left: 20%;
+  margin-top: 90px;
+}
+.btnSubmit{
+  margin-left: 200px;
+}
+.btnSubmit button{
+  width: 40%;
+  border-radius: 8px;
+}
+.sideSection ul li{
+  list-style: none;
+}
+.link{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.margin_left{
+  margin-left: 150px !important;
+  margin-right: 150px !important;
+}
+
+
+.firmSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 100px;
+    position: sticky;
+}
+@media screen and(max-width:768px) {
+  .firmSection{
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+  }
+}
+.tableForm input {
+    width: 100%;
+    max-width: 55%;
+    height: 35px;
+    max-width: 85%;
+    margin-bottom: 10px;
+}
+
+.tableForm label {
+    width: 100%;
+    max-width: 85%;
+    font-weight: 600;
+}
+
+.checkInp {
+    width: 100% !important;
+    max-width: 85% !important;
+    display: flex;
+}
+
+.checkInp label {
+    width: 20%;
+}
+
+.inputsContainer {
+    width: 100%;
+    display: flex;
+}
+
+.checboxContainer {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checboxContainer label {
+    width: 100%;
+}
+
+.checboxContainer input {
+    margin-left: -180px;
+}
+
+.checboxContainer label {
+    font-size: small;
+}
+
+.regBoxContainer label {
+    font-size: small;
+}
+.errorSection{
+  display: flex;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.errBtn{
+  border-radius: 10px;
+  margin-left: 20%;
+}
+.errBtn button{
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+}
+.checboxContainer{
+  margin-top: 10px;
+  margin-left: 5px;
+}
